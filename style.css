@@ -20,6 +20,103 @@ body {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.card {
+    text-align: center;
+    background: #eef2f7;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.back-btn {
+    background-color: #e74c3c;
+}
+
+.back-btn:hover {
+    background-color: #c0392b;
+}
+
+.timer-box {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #d9534f;
+    background-color: #f9d6d5;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.topic-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #0d541c;
+    margin-bottom: 25px;
+    text-align: center;
+    background: #e8f4ea;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.question-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #155724;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    background: #d4edda;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #c3e6cb;
+}
+
+.hidden {
+    display: none;
+}* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
 h1 {
     text-align: center;
     color: #2c3e50;
