@@ -22,7 +22,7 @@ fetch('questions.json')
 startBtn.addEventListener('click', () => {
     pickRandomQuestion();
     switchView(questionView);
-    startTimer(180); // 180 seconds = 3 minutes
+    startTimer(60); // 60 seconds = 1 minutes
 });
 
 // Back button event listener
