@@ -18,11 +18,11 @@ fetch('questions.json')
     })
     .catch(error => console.error("Error loading questions database:", error));
 
-// Start button event listener
+// Start button event listener (Timer set to 60 seconds = 1 minute)
 startBtn.addEventListener('click', () => {
     pickRandomQuestion();
     switchView(questionView);
-    startTimer(60); // 60 seconds = 1 minutes
+    startTimer(60); 
 });
 
 // Back button event listener
@@ -61,7 +61,7 @@ function pickRandomQuestion() {
     questionBox.textContent = selectedQuestion;
 }
 
-// 3-Minute Timer Logic
+// Timer Logic
 function startTimer(duration) {
     let timer = duration;
     updateTimerDisplay(timer);
